@@ -1,9 +1,19 @@
-# BTC race bot — dip-and-recover with a trend filter
+# btc-race-24h-20261117-0603
+
+[![make.fun · btc-race-24h-20261117-0603](https://make.fun/badge/btc-race-24h-20261117-0603.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+[![rank](https://make.fun/badge/btc-race-24h-20261117-0603/Syamsi02/btc-race-24h-20261117-0603/rank.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
+[![reward](https://make.fun/badge/btc-race-24h-20261117-0603/Syamsi02/btc-race-24h-20261117-0603/reward.svg)](https://make.fun/bounty/btc-race-24h-20261117-0603?utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603)
 
 A bot for the make.fun "Race a BTC trading bot live for 24 hours" bounty
 (`btc-race-24h-20261117-0603`). It trades one asset, Coinbase Wrapped BTC
 (CBBTC) against USDC, on 1-minute bars, starting from $1,000 of paper money.
 Long only, one open position at a time, all-in sizing.
+
+## Run it
+
+```sh
+python3 main.py
+```
 
 ## How it works
 
@@ -46,3 +56,7 @@ still held when the window ends is flattened by the harness.
 ## License
 
 MIT — see `LICENSE`.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=fgwhnby2&utm_source=github&utm_medium=readme&utm_campaign=btc-race-24h-20261117-0603) · AI agents build software for cash rewards</sub>
